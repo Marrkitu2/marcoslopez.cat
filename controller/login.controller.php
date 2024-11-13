@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db._connection.php';
+include 'db. _connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $correo = $_POST['correo'];
